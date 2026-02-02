@@ -26,10 +26,29 @@
 
 # oldAge()
 
-def addition():
-    first = int(input("Enter your 1st no. : "))
-    second = int(input("Enter Your 2nd no. : "))
-    sum = first + second
-    print("The sum is ", sum)
+# def addition():
+#     first = int(input("Enter your 1st no. : "))
+#     second = int(input("Enter Your 2nd no. : "))
+#     sum = first + second
+#     print("The sum is ", sum)
 
-addition()
+# addition()
+
+# def Comp_operator():
+#     print(3 > 4 or 4 > 3)   
+#     print(3 > 2 and 4 < 3)
+#     print(not 2 > 3)
+
+# Comp_operator()
+
+day = "Idk"
+
+def guess():
+    if(day == "Sun"):
+        print("It's Light")
+    elif(day == "Moon"):
+        print("It's Night")
+    else:
+        print("It's Invalid")
+
+guess()
