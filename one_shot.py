@@ -53,12 +53,9 @@
 
 # guess()
 
-a = input("Enter 1st Number")
-b = input("Enter 2nd Number")
-choose = (["+", "-", "*", "/"])
-print(choose)
-input("Enter Choice")
-
+a = int(input("Enter 1st Number: "))
+b = int(input("Enter 2nd Number: "))
+choose = input("Enter the Operator(+, -, *, / ): ")
 def Calculator():
     if(choose == "+"):
         print(a + b)
