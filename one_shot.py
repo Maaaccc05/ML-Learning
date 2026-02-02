@@ -1,3 +1,5 @@
+# ---Basic--- 
+
 # name = "Tony Stark"
 # age = 51
 # isGenius = True
@@ -26,6 +28,8 @@
 
 # oldAge()
 
+# ---Calculation---
+
 # def addition():
 #     first = int(input("Enter your 1st no. : "))
 #     second = int(input("Enter Your 2nd no. : "))
@@ -33,6 +37,8 @@
 #     print("The sum is ", sum)
 
 # addition()
+
+# ---Comparison Operator---
 
 # def Comp_operator():
 #     print(3 > 4 or 4 > 3)   
@@ -53,19 +59,22 @@
 
 # guess()
 
-a = int(input("Enter 1st Number: "))
-b = int(input("Enter 2nd Number: "))
-choose = input("Enter the Operator(+, -, *, / ): ")
-def Calculator():
-    if(choose == "+"):
-        print(a + b)
-    elif(choose == "-"):
-        print(a - b)
-    elif(choose == "*"):
-        print(a * b)
-    elif(choose == "/"):
-        print(a / b)
-    else:
-        print("Invalid Choosed Option")
+# --- Calculator---
 
-Calculator()
+# a = int(input("Enter 1st Number: "))
+# b = int(input("Enter 2nd Number: "))
+# choose = input("Enter the Operator(+, -, *, / ): ")
+# def Calculator():
+#     if(choose == "+"):
+#         print(a + b)
+#     elif(choose == "-"):
+#         print(a - b)
+#     elif(choose == "*"):
+#         print(a * b)
+#     elif(choose == "/"):
+#         print(a / b)
+#     else:
+#         print("Option choosed is Invalid")
+
+# Calculator()
+
