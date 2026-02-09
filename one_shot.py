@@ -130,7 +130,23 @@
 #     print(i)
 
 
-marks = [1, 2, 3]
+# marks = [1, 2, 3]
 # print(marks[-3])
-for m in marks:
-    print(m)
+# for m in marks:
+#     print(m)
+
+# marks.append(99)
+# marks.insert(0, 99)
+# print(2 in marks)
+
+# i = 0
+# while i < len(marks):
+#     print(marks[i])
+#     i = i + 1
+
+students = ["Mac", "Sak", "Kam", "Bo", "Janhvee"]
+
+for student in students:
+    if student == "Kam":
+        continue
+    print(student)
