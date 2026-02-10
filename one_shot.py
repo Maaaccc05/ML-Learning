@@ -175,4 +175,15 @@
 # marks["Physics"] = 90
 # print(marks)
 
-import math
+#---Funtions---
+
+# from math import sqrt
+# print(dir(math))
+# print(sqrt(16))
+
+# a = 1
+# b = 2
+def printSum(a, b):
+    print(a + b)
+
+printSum(1 , 2)
