@@ -155,5 +155,24 @@
 
 #---TUples---
 
-marks = (1,2,3)
-print(marks(type))
+# marks = (1,2,3)
+# print(marks(type))
+
+#---Set---
+
+# person = {1,2,3,4,5,5}
+
+# for persons in person:
+#     print(persons)
+
+#---Dictionaries---
+
+# marks = {"English" : 98, "Chem" : 99}
+# print(marks["Chem"])
+
+# marks["Chem"] = 87
+# print(marks)
+# marks["Physics"] = 90
+# print(marks)
+
+import math
