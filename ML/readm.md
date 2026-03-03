@@ -54,3 +54,9 @@
         * One-Hot Encoding(nominal)
     3. Feature Transformation
     4. Feature Scaling (Normalization and Standardization)
+    
+    Normalization(Min-Max scaling ):
+        Scales values betn 0 and 1
+    Standardization(Z-score Scaling ):
+        Transforms data to have mean 0 and 1
+    
