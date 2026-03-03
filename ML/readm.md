@@ -22,3 +22,13 @@ This training is like teaching dog it's based on trial nd error if machine gives
 Ex Machine playing flappy game
 EDA - Exploratory Data Analysis 
 We explore data in EDA
+Viewing Data
+* head() shape info, tail
+Summary statistics 
+Mean, median, mode, std, min, max
+
+Value counts - How many uniques values are there 
+
+Missing value analysis 
+Visualization 
+Target variable exploration
