@@ -72,3 +72,11 @@
 
 # Feature Selection
     selecting the most useful features and removing the rest 
+
+
+# What is Regression Algorithm?
+
+    Flow: Start --> Collect Data --> Define Variables --> Split Dataset --> Train Model --> Calculate Coefficents --> Make Predications --> Evaluate Model --> if Model is satisfactory Deploy it --> If not then perform steps from Split Dataset
+
+    Regression is way to predict a number. It helps us find out how one thing change when something else changes
+    Regression is about finding pattern and numbers so we can make smart predictions
