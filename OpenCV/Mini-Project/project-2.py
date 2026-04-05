@@ -11,7 +11,7 @@ if image is None:
 choice = input("1.Type 'line' for drawing line on image\n2.Type 'rectangle' to draw rectangle on image\n3.Type 'circle' to draw circle on image\n4.Type 'text' to add text on image\n").lower()
 
 def get_points_1():
-    x1 = int(input("Enter x1 value: "))
+    x1 = int(input("Enter x1 value: ")) 
     y1 = int(input("Enter y1 value: "))
     return(x1, y1)
 
