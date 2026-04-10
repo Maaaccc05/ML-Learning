@@ -10,3 +10,5 @@ width = total number of pixels horizontally left ---> right
 height = total number of pixels vertically top ---> bottom
 
 format of image - jpg,png,bmp,tiff
+
+Video captured by openCV are save in 2 formats which are ---> .avi(audio, video interleave) and .mp4 
