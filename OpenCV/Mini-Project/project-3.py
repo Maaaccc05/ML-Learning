@@ -1,4 +1,5 @@
 import cv2
+import subprocess
 
 camera = cv2.VideoCapture(0)
 
@@ -42,7 +43,26 @@ def all_vdo_related():
 
         camera.release()
         cv2.destroyAllWindows()
+    elif Choice == 3:
+        recorded = cv2.VideoWriter("myvideo.avi", codec, 24, (frame_width, frame_height))
+
+        while True:
+            success, image = camera.read()
+
+            if not success:
+                break
+        
+            recorded.write(image)
+            cv2.imshow("Soon will be Saving", image)
+
+            if cv2.waitKey(1) & 0xFF == ord('q'):
+                print("Quitting...")
+                break
+        camera.release()
+        recorded.release()
+        cv2.destroyAllWindows()
+        subprocess.Popen(["/usr/bin/vlc", "myvideo.avi"])
     else:
         print("wrong choice")
 
-vid_saving()
+all_vdo_related()
