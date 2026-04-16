@@ -2,6 +2,14 @@
 cv2.bitwise_and(img1, img2)
 cv2.bitwise_or(img1, img2)
 cv2.bitwise_not(img)
+
+* IMP things
+
+1st The height of the both images should be same
+2nd The images should be in B&W
+3rd Create Mask of that Images
+
+
 """
 import cv2
 import numpy as np
