@@ -4,6 +4,7 @@ face_cascade = cv2.CascadeClassifier("OpenCV/Phase-8-Face & Object Detection/haa
 eye_cascade = cv2.CascadeClassifier("OpenCV/Phase-8-Face & Object Detection/haarcascade_eye.xml")
 smile_cascade = cv2.CascadeClassifier("OpenCV/Phase-8-Face & Object Detection/haarcascade_smile.xml")
 
+# url = "http://192.168.0.114:4747/video"
 cap = cv2.VideoCapture(0)
 
 while True:
@@ -19,13 +20,13 @@ while True:
         roi_gray = gray[y:y+h, x:x+w]
         roi_color = frame[y:y+h, x:x+w]
 
-    eyes = eye_cascade.detectMultiScale(roi_gray, 1.1, 10)
-    if len(eyes) > 0:
-        cv2.putText(frame, "Eyes Are there", (x, y-30), cv2.FONT_HERSHEY_COMPLEX, 0.6, (0, 255, 0), 1)
+        eyes = eye_cascade.detectMultiScale(roi_gray, 1.1, 10)
+        if len(eyes) > 0:
+            cv2.putText(frame, "Eyes Are there", (x, y-30), cv2.FONT_HERSHEY_COMPLEX, 0.6, (0, 255, 0), 1)
     
-    smile = smile_cascade.detectMultiScale(roi_gray, 1.7, 22)
-    if len(smile) > 0:
-        cv2.putText(frame, "Smile is there", (x, y-10), cv2.FONT_HERSHEY_COMPLEX, 0.6, (0, 255, 0), 1)
+        smile = smile_cascade.detectMultiScale(roi_gray, 1.7, 22)
+        if len(smile) > 0:
+            cv2.putText(frame, "Smile is there", (x, y-10), cv2.FONT_HERSHEY_COMPLEX, 0.6, (0, 255, 0), 1)
 
     cv2.imshow("Face Detection", frame)
 
