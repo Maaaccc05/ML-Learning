@@ -84,3 +84,5 @@
 # How to create best fit line
 
     y = mx + b -----> m = slope, b = Intercept, x = Data point, y = prediction
+
+Done with linear regression and repeat convergence theory 
