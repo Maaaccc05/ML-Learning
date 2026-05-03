@@ -86,3 +86,11 @@
     y = mx + b -----> m = slope, b = Intercept, x = Data point, y = prediction
 
 Done with linear regression and repeat convergence theory 
+
+# Perfromance Matrice
+
+    R^2 and Adjusted R^2
+
+    Formula of R^2 : 1-(sum of residual)/(sum of total)
+
+    Formula of adjusted_r2 = 1 - ((1-R^2)*(n-1)/ (n-p-1))  here n is no. of rows and p are the features
