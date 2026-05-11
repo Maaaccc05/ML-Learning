@@ -107,3 +107,13 @@ Done with linear regression and repeat convergence theory
 
         Training ---> Model performs bad (High bias)
         Testing ---> Model does not perform good (High Variance)
+    
+
+# What is cLassification
+
+    A Classification algotrithm is a type of machine learning algorithm used to predict a category or class label for given input
+    Classification is the process of teaching a machine to ans questions like: "Is this a cat" or "Will this customer survive or not"
+
+# Logistic Regression
+    
+    To make the straight line into S shaped curved we will use SIGMOID activation function
