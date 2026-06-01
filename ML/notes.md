@@ -117,3 +117,5 @@ Done with linear regression and repeat convergence theory
 # Logistic Regression
     
     To make the straight line into S shaped curved we will use SIGMOID activation function
+
+# Log loss (Binary cross entropy)
