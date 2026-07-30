@@ -119,3 +119,11 @@ Done with linear regression and repeat convergence theory
     To make the straight line into S shaped curved we will use SIGMOID activation function
 
 # Log loss (Binary cross entropy)
+
+# Model Evalualtion Complex matrix
+    1. Accuracy
+        formula for accuracy = TP + FP / TP + FP + FN + FP 
+
+    2. Precision - Out of predicted, How many were actually positive(Used when false positive are costly)
+
+        TP / TP + FP
