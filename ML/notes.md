@@ -127,3 +127,11 @@ Done with linear regression and repeat convergence theory
     2. Precision - Out of predicted, How many were actually positive(Used when false positive are costly)
 
         TP / TP + FP
+
+    3. Recall - Outoff all actual positive how many did we correctly predicted(Used when false negative are costly(Disease Detection))
+
+        TP / TP + FN
+    
+    4. F1 Score - Harmonic Mean of precision and recall(used when you want balance betn precision and recall)
+
+        2 * precision * recall / precision + recall
