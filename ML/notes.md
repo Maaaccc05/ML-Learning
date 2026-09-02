@@ -135,3 +135,11 @@ Done with linear regression and repeat convergence theory
     4. F1 Score - Harmonic Mean of precision and recall(used when you want balance betn precision and recall)
 
         2 * precision * recall / precision + recall
+
+# KNN (K nearest neighbour)
+
+    Steps:  
+            1. Define K Value --> K = 5 ( Here 5 is Hyper Parameter and K value must be and odd number otherwise you won't get majority)
+            2. Calculate the distance from all points( euclidean distance )
+            3. Sort all the distance
+            4. Majority Count
