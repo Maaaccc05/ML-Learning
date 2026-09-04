@@ -143,3 +143,8 @@ Done with linear regression and repeat convergence theory
             2. Calculate the distance from all points( euclidean distance )
             3. Sort all the distance
             4. Majority Count
+
+# Naive Bayes (Probablity)
+
+    Bayes Theorem:
+            P(A|B) = (P(A) * P(B|A)) / P(B)
