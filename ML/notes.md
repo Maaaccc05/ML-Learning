@@ -148,3 +148,7 @@ Done with linear regression and repeat convergence theory
 
     Bayes Theorem:
             P(A|B) = (P(A) * P(B|A)) / P(B)
+
+# Decision Tree
+
+    
