@@ -151,4 +151,13 @@ Done with linear regression and repeat convergence theory
 
 # Decision Tree
 
+    Stucture for decision tree:
+        1. Start with the data
+        2. Choose the best feature
+        3. Make Branches
+        4. Repeat the process for each branch
+        5. Stop when : 
+                        a. All data is pure
+                        b. max depth is reached
     
+    Antropy formula =
