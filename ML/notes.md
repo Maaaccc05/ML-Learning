@@ -160,4 +160,4 @@ Done with linear regression and repeat convergence theory
                         a. All data is pure
                         b. max depth is reached
     
-    Antropy formula =
+    
