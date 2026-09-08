@@ -160,4 +160,18 @@ Done with linear regression and repeat convergence theory
                         a. All data is pure
                         b. max depth is reached
     
+# Support Vector Machine (SVM)
+
+    wx + b = 0 
+
+        w - weight/stone
+        x - point you want to predict
+        b - bias
     
+    wx + b > 0 --> class 1
+    wx + b < 0 --> class 2
+
+    Important Stuff :
+                    Hyperplane - A line that separate two categories
+                    Margin - The space betn the line and nearest point
+                    Support Vector - The closest ball to margin that support the line
