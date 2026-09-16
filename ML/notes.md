@@ -175,3 +175,11 @@ Done with linear regression and repeat convergence theory
                     Hyperplane - A line that separate two categories
                     Margin - The space betn the line and nearest point
                     Support Vector - The closest ball to margin that support the line
+
+# Model Tuning/Fine Tuning
+
+    Model Tuning
+    Model tuning is the process of improving a machine learning model’s performance by adjusting its settings or parameters.
+
+    Hyperparameter Tuning
+    Hyperparameter tuning is the process of finding the best values for a model’s hyperparameters (such as K in KNN or C in SVM) to achieve better performance.
