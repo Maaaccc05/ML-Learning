@@ -183,3 +183,10 @@ Done with linear regression and repeat convergence theory
 
     Hyperparameter Tuning
     Hyperparameter tuning is the process of finding the best values for a model’s hyperparameters (such as K in KNN or C in SVM) to achieve better performance.
+        
+        Ridge and Laso Regressiong = α = Learning Rate
+
+        Methods of Hyper tuning :
+            1. Manual Search
+            2. Grid Search CV
+            3. Randomized Search
