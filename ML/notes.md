@@ -188,5 +188,8 @@ Done with linear regression and repeat convergence theory
 
         Methods of Hyper tuning :
             1. Manual Search
-            2. Grid Search CV
+            2. Grid Search CV : Tests different combinations of hyperparameter values using cross-validation to find the combination that gives the best model performance
+                                    ex. Example (Theory): Suppose you are using KNN to predict heart disease. You test different values of K (3, 5, and 7) and different weighting methods (uniform and distance). GridSearchCV evaluates each combination using cross-validation and identifies the combination that gives the best average performance.
             3. Randomized Search
+        
+    
