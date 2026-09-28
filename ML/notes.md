@@ -193,3 +193,13 @@ Done with linear regression and repeat convergence theory
             3. Randomized Search
         
     
+# Ensemble Learning
+
+    Ensemble learning is a machine learning technique that combines the predictions of multiple models to produce a more accurate and reliable final prediction.
+
+    Types of Ensemble:
+
+        1. Bagging --> Random Forest
+        2. Boosting ---> Ada Boost, Gradiant Boost, XG Boost
+        3. Stacking 
+    
