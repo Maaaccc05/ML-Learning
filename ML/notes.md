@@ -199,7 +199,7 @@ Done with linear regression and repeat convergence theory
 
     Types of Ensemble:
 
-        1. Bagging --> Random Forest
-        2. Boosting ---> Ada Boost, Gradiant Boost, XG Boost
-        3. Stacking 
+        1. Bagging --> Random Forest ---> Bagging (Bootstrap Aggregating) is an ensemble learning technique that trains multiple models on different random samples of the training data and combines their predictions to improve accuracy and reduce overfitting.
+        2. Boosting ---> Ada Boost, Gradiant Boost, XG Boost ---> Boosting is an ensemble learning technique where models are trained sequentially, with each new model focusing more on the errors made by the previous models.
+        3. Stacking ---> Stacking is an ensemble learning technique where multiple different models make predictions, and a final model (meta-model) combines those predictions to make the final prediction.
     
